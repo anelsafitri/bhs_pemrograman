@@ -1,0 +1,1 @@
+pada pertemuan 1
