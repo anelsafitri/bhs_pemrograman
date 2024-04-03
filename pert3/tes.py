@@ -1,5 +1,6 @@
 value_str = input("enter value : ")
 value = int(value_str)
+
 if value >= 90:
     grade = "A"
 elif value >= 80:
@@ -7,7 +8,7 @@ elif value >= 80:
 else :
     grade = "E"
 
-print ("Grade : %s % grade")
+print ("Grade : %s" % grade)
 
 
 
