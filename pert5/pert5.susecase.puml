@@ -1,0 +1,33 @@
+@startuml pert5
+
+left to right direction 
+
+actor User as "User"
+
+rectangle "Source Code Pert4"{
+    usecase "Call Void Tambah" as tambah
+    usecase "Call Void Kurang" as kurang
+    usecase "Call Void Bagi"  as bagi
+    usecase "Call Void Kali" as kali
+    usecase "Exit"  as exit
+}
+
+User --> Input
+Input --> menu : Choice Menu 
+menu --> tambah
+tambah --> exit
+
+User --> Input
+Input --> menu : Choice Menu 
+menu --> kurang
+tambah --> exit
+
+User --> Input
+Input --> menu : Choice Menu 
+menu --> kali
+tambah --> exit
+
+User --> Input
+Input --> menu : Choice Menu 
+menu --> bagi
+tambah --> exit

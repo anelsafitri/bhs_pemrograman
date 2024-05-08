@@ -5,7 +5,7 @@ BAHASA PEMROGRAMAN TERDIRI DARI
 
 BAHASA MESIN, yang memberikan perintah kpd komputer dgn memakai kode biner contohnya : (0110010100110)
 
-BAHASA TINGKAT RENDAH, memberikan perintah kepada komputer dengan memakai kode-kode singkat contohnya kode_mesin|MOV, SUB, CMP, JMP, JGE, JL, LOOP, dsb.
+BAHASA TINGKAT RNDAH, memberikan perintah kepada komputer dengan memakai kode-kode singkat contohnya kode_mesin|MOV, SUB, CMP, JMP, JGE, JL, LOOP, dsb.
 
 BAHASA TINGKAT MENENGAH, bahasa yang memakai campuran instruksi dalam kata-kata bahasa manusia[butuh rujukan] dan instruksi yang bersifat simbolik contohnya {, }, ?, <<, >>, &&, ||, dsb.
 
