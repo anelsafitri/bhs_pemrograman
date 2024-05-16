@@ -1,0 +1,24 @@
+@startpuml
+
+start
+:initialize Variabels;
+while (pilih menu) is (control statement)
+     :Display Menu;
+     :Get User Input(pilih);
+    else if (pilih menu) then 
+     :makanan;
+     :minuman;
+    elseif (menu makanan) then 
+     :pecel lele;
+     :nasi goreng;
+    else if (menu minuman) then 
+     :mineral;
+     :es jeruk;
+    else
+        :Display exit;
+    endif
+endwhile (control statement)
+:Display selesai;
+stop
+
+@enduml
