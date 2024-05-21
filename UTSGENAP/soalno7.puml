@@ -1,0 +1,14 @@
+@startuml
+
+title menu 
+
+class Main {
+    + main(): int
+}
+
+Main -- "1. Tambah"
+Main -- "2. Kurang"
+Main -- "3. Kali"
+Main -- "4. Bagi"
+
+@enduml
