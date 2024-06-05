@@ -1,0 +1,32 @@
+@startuml
+    
+    Start --> Analisis_Pasar_dan_Pelanggan : "Mulai"
+    Analisis_Pasar_dan_Pelanggan : Menganalisis pasar dan kebutuhan pelanggan
+    Analisis_Pasar_dan_Pelanggan <<Analisis>>
+
+    Analisis_Pasar_dan_Pelanggan --> Identifikasi_Produk : "Identifikasi Produk yang Dibutuhkan"
+    Identifikasi_Produk : Menentukan jenis produk yang akan dikembangkan
+    Identifikasi_Produk <<Identifikasi>>
+
+    Identifikasi_Produk --> Pengembangan_Produk : "Pengembangan Produk"
+    Pengembangan_Produk : Merancang dan mengembangkan produk baru
+    Pengembangan_Produk <<Pengembangan>>
+
+    Pengembangan_Produk --> Produksi : "Produksi"
+    Produksi : Memproduksi produk dalam jumlah besar
+    Produksi <<Produksi>>
+
+    Produksi --> Penjualan_dan_Pemasaran : "Penjualan dan Pemasaran"
+    Penjualan_dan_Pemasaran : Menjual dan memasarkan produk ke pelanggan
+    Penjualan_dan_Pemasaran <<Penjualan>>
+
+    Penjualan_dan_Pemasaran --> Layanan_Pelanggan : "Layanan Pelanggan"
+    Layanan_Pelanggan : Memberikan dukungan dan layanan pelanggan
+    Layanan_Pelanggan <<Layanan>>
+
+    Layanan_Pelanggan --> Evaluasi_dan_Perbaikan : "Evaluasi dan Perbaikan"
+    Evaluasi_dan_Perbaikan : Menilai kinerja produk dan melakukan perbaikan
+    Evaluasi_dan_Perbaikan <<Evaluasi>>
+
+    Evaluasi_dan_Perbaikan --> End : "Selesai"
+@enduml
