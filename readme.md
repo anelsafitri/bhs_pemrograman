@@ -1,3 +1,5 @@
+HALO
+
 # GITHUB COMMAND LINE SAAT INSTALLASI PROJECT
 
 git init 
@@ -23,4 +25,4 @@ digunakan untuk apa
 - git add . 
 - git commit -m "pesannya"
 - git push 
-
+ 
